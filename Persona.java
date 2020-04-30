@@ -160,6 +160,9 @@ public class Persona {
 			throw new ExcepcionFechaNacimiento("La fecha no es válida para el formato dd/MM/yyyy");
 		}
 	}
+	public int metodo2(){
+		return 0;
+		}
 
 	@Override
 	public String toString() {
@@ -172,8 +175,6 @@ public class Persona {
 		}
 	}
 
-	public int metodo1(){
-		return 0;
-		}
+	
 
 }
